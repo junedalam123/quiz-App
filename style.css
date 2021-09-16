@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:New Tegomin', serif;
+}
+.conatiner{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.quizcard{
+    width: 500px;
+    min-height:400px ;
+    background-color: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 5px 10px 25px 5px rgba(0, 0, 0, .5);
+}
+.quetion{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'New Tegomin', serif;
+    text-transform: capitalize;
+    margin:-30px 0px 10px 30px; 
+}
+.quizcard ul li{
+  margin-left: 50px;
+  padding: 5px;
+  list-style: none;
+  font-size: 18px;
+  font-weight:500;
+  text-transform: capitalize;
+  font-family:'New Tegomin', serif;
+
+}
+input{
+    cursor: pointer;
+}
+#submit{
+    padding: 7px 35px;
+    background-color:coral;
+    position: relative;
+    margin:10px 0px 0px 200px ;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700px;
+    border: none;
+    text-transform: uppercase;
+    transition: .4s;
+}
+#submit:hover{
+    background-color: cyan;
+}
+#scorearea{
+    width: 300px;
+    min-height: 90px;
+    background-color: dimgray;
+    margin:20px 0px 0px 100px;
+    box-shadow:0px 10px 25px  grey;
+    position: relative;
+}
+.showscore{
+    display: none;
+}
+
+h3{
+    color:floralwhite;
+    font-size:20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform:capitalize;
+}
+.btn{
+    padding: 6px 20px ;
+    background-color:rgba(255, 255,255, .4);
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'New Tegomin', serif;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
